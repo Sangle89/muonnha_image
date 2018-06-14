@@ -1,0 +1,110 @@
+#loading{
+    position: fixed;
+    top:50%;
+    left:50%;
+    font-size: 20px;
+    text-transform: uppercase;
+    z-index: 999;
+    background: #000;
+    opacity: 0.8;
+    color:#ffffff;
+    display: inline-block;
+    padding: 3px 10px;
+    display: none;
+}
+.table-striped thead tr th {
+    
+}
+.table-striped thead tr th:nth-child(2) {
+    text-align: center;
+}
+.table-striped thead tr th a.btn{
+    background:#00a65a;
+    border-color:#008e4d;
+}
+.table-striped thead tr th button.btn{
+    
+}
+.table-striped.table-list>tbody>tr:first-child {
+    
+}
+th.left,
+td.left{
+    text-align: left;
+}
+th.center,
+td.center{
+    text-align: center;
+}
+input[name^="sort_order"] {
+    width:50px;
+    text-align: center;
+    display: inline-block;
+}
+.dropdown-category .level0 {
+	font-weight:bold;
+	color:red;
+	font-size: 15px;
+}
+.dropdown-category .level1{
+	font-weight:bold;
+	color:green;
+	font-size:13px;
+}
+.dropdown-category .level2 {
+	font-weight:400;
+	color:black;
+	font-size:13px;
+}
+.upload_multi_image {
+    margin:0;
+    padding:0;
+}
+.upload_multi_image li {
+    float:left;
+    display: inline-block;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    height:150px;
+    list-style: none;
+	position:relative;
+}
+.upload_multi_image li  .progress {
+	position:absolute;
+	top:40%;
+	left:0;
+	width:100%;
+}
+.upload_multi_image li a.remove_image{
+	position:absolute;
+	bottom:0;
+	left: 45%;
+}
+.upload_multi_image li a.remove_image i {
+	font-size: 25px;
+}
+.upload_multi_image li.add_image {
+    vertical-align: middle;
+    text-align: center;
+    border: 2px dashed #000000;
+    cursor: pointer;
+}
+.upload_multi_image li.add_image i {
+    font-size:60px;
+    margin-top: 30px;
+}
+.upload_multi_image li.add_image span {
+    display: block;
+    text-align: center;
+}
+.upload_multi_image li > div.btn {
+    width:150px;
+    height:150px;
+}
+.upload_multi_image li > div.btn p {
+    display: block;
+}
+.upload_multi_image li > div.btn .remove_image {
+    color:red;
+}
