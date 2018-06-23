@@ -107,6 +107,7 @@ class Upload extends MY_Controller {
                 'success' => false
             );
         }
+		header("Content-type: application/json");
         echo json_encode($res);
     }
     
